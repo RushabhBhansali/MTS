@@ -1,0 +1,3 @@
+Install IntelliJ.
+Enable export to JAR file.
+Install Database plugin (remote). (not sure about this)

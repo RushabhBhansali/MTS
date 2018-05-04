@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="MTS:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MTS_jar</output-path>
+    <root id="archive" name="MTS.jar">
+      <element id="module-output" name="MTS" />
+      <element id="library" level="project" name="postgresql-42.2.1" />
+    </root>
+  </artifact>
+</component>

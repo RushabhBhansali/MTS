@@ -1,0 +1,18 @@
+digraph G
+{
+  train222 [ label="train#222 | 23 riding | time is 8811", color="#000077 "];
+  train111 [ label="train#111 | 24 riding | time is 8374", color="#000077 "];
+
+  stop2 [ label="stop#2 | 3 waiting", color="#FF0000"];
+  stop3 [ label="stop#3 | 4 waiting", color="#FF0000"];
+  stop6 [ label="stop#6 | 5 waiting", color="#FF0000"];
+  stop7 [ label="stop#7 | 5 waiting", color="#FF0000"];
+  stop4 [ label="stop#4 | 10 waiting", color="#FF0000"];
+  stop5 [ label="stop#5 | 10 waiting", color="#FF0000"];
+  stop1 [ label="stop#1 | 14 waiting", color="#FF0000"];
+
+  stop4 -> train222 [ label=" dep" ];
+  train222 -> stop7 [ label=" arr" ];
+  stop4 -> train111 [ label=" dep" ];
+  train111 -> stop5 [ label=" arr" ];
+}

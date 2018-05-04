@@ -1,0 +1,11 @@
+digraph G
+{
+
+
+  stop11 -> bus333 [ label=" dep" ];
+  bus333 -> stop33 [ label=" arr" ];
+  stop22 -> bus222 [ label=" dep" ];
+  bus222 -> stop33 [ label=" arr" ];
+  stop55 -> bus111 [ label=" dep" ];
+  bus111 -> stop77 [ label=" arr" ];
+}

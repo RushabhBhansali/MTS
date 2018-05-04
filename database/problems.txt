@@ -1,0 +1,19 @@
+public.apcdata_train_stops only shows the stops for the first route.
+public.apcdata_train_routelist_oneway shows the same six stops over and over, which does not reflect the actual data.
+public.apcdata_train_rider_distributions has numbers that are far too large.
+	The problem for the three above was that several stops had the same name. FIXED
+Trains are all in the early morning. There's no coverage throughout the day.
+	Have trains go back and forth on N/S or E/W routes until midnight. DONE
+Each train only runs once per day. It does not go back and forth.
+	See above. DONE
+What is a normal train speed?
+	70 mph max; I'm doing 50 mph
+What is the normal length of time a train would wait at a stop?
+	I'm doing 2 minutes. Not sure what realistic time is.
+Need Great Circle Route formula.
+Need realistic route names.
+	Wikipedia MARTA. DONE
+Need realistic stop names.
+	Wikipedia MARTA. DONE
+Trains start at the same time. Should be staggered.
+On/off needs to be fixed; ons should slow down until turn-around point.

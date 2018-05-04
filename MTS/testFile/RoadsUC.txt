@@ -1,0 +1,14 @@
+add_bus_stop,1,busstop1,100,100
+add_bus_stop,2,busstop2,200,200
+add_bus_stop,3,busstop3,300,300
+add_bus_stop,4,busstop4,400,400
+add_bus_route,12,10,busRoute12
+add_bus_route,34,10,busRoute34
+extend_bus_route,12,1,50
+extend_bus_route,12,2,100
+extend_bus_route,34,3,50
+extend_bus_route,34,4,150
+add_bus,11,12,0,40,50
+add_bus,33,34,0,40,50
+add_event,1,move_bus,11
+add_event,1,move_bus,33

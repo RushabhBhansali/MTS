@@ -1,0 +1,17 @@
+add_train_stop,1,lindbergh,10.12,100.12
+add_train_stop,2,NorthAvanue,20.12,200.12
+add_train_stop,3,PeachtreeCenter,30.12,300.12
+add_train_stop,4,Fivepoints,40.12,400.12
+add_train_stop,5,Airport,40.12,400.12
+add_train_route,1,100,SouthBound
+extend_train_route,1,1,100
+extend_train_route,1,2,200
+extend_train_route,1,3,300
+extend_train_route,1,4,400
+extend_train_route,1,5,400
+add_train,11,1,0,200,50
+add_rider,train,2,240,5,1
+add_rider,train,3,1000,5,1
+add_rider,train,4,1000,5,1
+add_event,1,move_train,11
+step_once
